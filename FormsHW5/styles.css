@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Gill sans', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #0f4f2a 0%, #324d23 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ body {
     font-weight: 700;
     color: #333;
     margin-bottom: 10px;
-    background: linear-gradient(135deg, #0f4f2a, #324d23);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -54,7 +54,7 @@ body {
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
-    color: #0f4f2a;
+    color: #667eea;
     font-size: 1.2rem;
     z-index: 2;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .form-input:focus {
-    border-color: #0f4f2a;
+    border-color: #667eea;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
     background: rgba(255, 255, 255, 1);
 }
@@ -93,7 +93,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 16px;
-    background: linear-gradient(135deg, #0f4f2a 0%, #324d23 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border: none;
     border-radius: 12px;
@@ -121,7 +121,7 @@ body {
 
 /* Focus animations */
 .form-input:focus {
-    border-color: #0f4f2a;
+    border-color: #667eea;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
     background: rgba(255, 255, 255, 1);
     animation: inputFocus 0.3s ease;
